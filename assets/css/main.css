@@ -12,10 +12,20 @@ img {
 .container-lg {
   max-width: 1520px;
   margin: 0 auto;
+  --bs-gutter-x: 30px;
 }
 
 .container {
   max-width: 1170px;
+  margin: 0 auto;
+  --bs-gutter-x: 30px;
+}
+
+.row {
+  --bs-gutter-x: 30px;
+}
+.row.g-0 {
+  --bs-gutter-x: 0;
 }
 
 .img-icon {
@@ -244,6 +254,8 @@ img {
 .vertical-heading h2 {
   font-size: 90px;
   line-height: 60px;
+  margin: 0;
+  padding: 0;
 }
 .vertical-heading p {
   font-size: 40px;
